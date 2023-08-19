@@ -10,6 +10,10 @@ const categorySchema = new mongoose.Schema(
             type : String,
             trim : true,
         },
+        displayOrder : {
+            type : Number,
+            trim : true,
+        },
         is_active : {
             type : Boolean,
             default : true,

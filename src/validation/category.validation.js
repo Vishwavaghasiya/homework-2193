@@ -6,6 +6,7 @@ const createCategory = {
         {
             category_name: Joi.string().required().trim(),
             category_desc: Joi.string().required().trim(),
+            displayOrder : Joi.string().required().trim(),
         }
     ),
 };
